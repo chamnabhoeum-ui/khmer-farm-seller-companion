@@ -1,15 +1,17 @@
 {
   "expo": {
-    "name": "tmp-app",
-    "slug": "tmp-app",
+    "name": "khmer-farm-seller-companion",
+    "slug": "khmer-farm-seller-companion",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.chamnab.khmerfarm"
     },
     "android": {
+      "package": "com.chamnab.khmerfarm",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
