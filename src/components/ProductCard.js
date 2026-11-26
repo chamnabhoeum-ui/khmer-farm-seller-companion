@@ -8,7 +8,7 @@ export default function ProductCard({ name, price, unit, stock }) {
       <View style={styles.info}>
         <Text style={styles.name}>{name}</Text>
         <Text style={styles.price}>${price.toFixed(2)} / {unit}</Text>
-        <Text style={styles.stock}>{stock} {unit} in stock</Text>
+        {stock != null && <Text style={styles.stock}>{stock} {unit} in stock</Text>}
       </View>
     </View>
   );
